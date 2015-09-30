@@ -1,0 +1,10 @@
+Package: EFSlabels
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1
+Date: 2015-09-30
+Author: Florian Brühlmann
+Maintainer: <florian.bruehlmann@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
