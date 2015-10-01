@@ -8,6 +8,8 @@ Authors@R: person("Florian", "Brühlmann", email = "florian.bruehlmann@gmail.com
 Description: A better way to import .csv data from QuestBack unipark.
   It is able to label the values of a variable (e.g., 1 = "Yes", 2 = "No")
   similar to the SPSS file from unipark EFS survey (www.unipark.com).
+URL: http://github.com/psyflo/EFSlabels
+BugReports: http://github.com/psyflo/EFSlabels/issues
 License: CC0
 LazyData: TRUE
 Suggests: testthat
