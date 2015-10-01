@@ -1,10 +1,13 @@
 Package: EFSlabels
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1
+Title: Set labels of variables in a data file from EFS unipark
+Version: 0.1.0
 Date: 2015-09-30
-Author: Florian Brühlmann
-Maintainer: <florian.bruehlmann@gmail.com>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Florian", "Brühlmann", email = "florian.bruehlmann@gmail.com",
+                  role = c("aut", "cre"))
+Description: A better way to import .csv data from QuestBack unipark.
+  It is able to label the values of a variable (e.g., 1 = "Yes", 2 = "No")
+  similar to the SPSS file from unipark EFS survey (www.unipark.com).
+License: CC0
 LazyData: TRUE
+Suggests: testthat
