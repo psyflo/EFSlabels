@@ -19,7 +19,6 @@
 #' head(df)
 EFSlabels <- function(dataFileLocation, codebookFileLocation) {
     df <- read.csv(dataFileLocation, header = T, sep = ";", na.strings = c("-77", "-99", "-66"))
-    names(df)
 
     df_names <- readLines(codebookFileLocation)
 
