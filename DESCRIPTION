@@ -3,7 +3,7 @@ Type: Package
 Title: Set labels of variables in a data file from EFS unipark
 Version: 0.1.0
 Date: 2015-09-30
-Authors@R: person("Florian", "Brühlmann", email = "florian.bruehlmann@gmail.com",
+Authors@R: person("Florian", "Bruehlmann", email = "florian.bruehlmann@gmail.com",
                   role = c("aut", "cre"))
 Description: A better way to import .csv data from QuestBack unipark.
   It is able to label the values of a variable (e.g., 1 = "Yes", 2 = "No")
