@@ -9,6 +9,6 @@ devtools::install_github("psyflo/EFSlabels")
 Load the package and use its function:
 ```{r}
 library(EFSlabels)
-df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23")
+df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23.csv")
 head(df)
 ```
