@@ -23,7 +23,7 @@ The parameter \code{dataFileLocation} should point to the location of the .csv f
 Export this file from unipark by selecting Documentation > Codebook > Export > Export as CSV.
 }
 \examples{
-df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23")
+df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23.csv")
 head(df)
 }
 

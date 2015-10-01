@@ -15,7 +15,7 @@
 #' @param codebookFileLocation The codebook file exported from unipark (.csv with UTF-8, NOT from 'Export variable names for external editing').
 #' @return A data frame \code{dataFileLocation} with labels from \code{codebookFileLocation}.
 #' @examples
-#' df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23")
+#' df <- EFSlabels("data_project_206763_2015_09_23.csv","codebook_project_206763_2015_09_23.csv")
 #' head(df)
 EFSlabels <- function(dataFileLocation, codebookFileLocation) {
     df <- read.csv(dataFileLocation, header = T, sep = ";", na.strings = c("-77", "-99", "-66"))
